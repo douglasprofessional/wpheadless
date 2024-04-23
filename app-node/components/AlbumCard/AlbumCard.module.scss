@@ -1,0 +1,19 @@
+@import 'styles/breakpoints';
+
+.component {
+	padding-right: var(--wpe--container--padding-x);
+	padding-left: var(--wpe--container--padding-x);
+	margin-right: auto;
+	margin-left: auto;
+	max-width: var(--wpe--container--max-width);
+}
+
+.album-card{
+	
+	&__cover{
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}

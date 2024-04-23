@@ -1,0 +1,129 @@
+{
+    "key": "group_662649e26a139",
+    "title": "Song fields",
+    "fields": [
+        {
+            "key": "field_662649e362777",
+            "label": "Song Title",
+            "name": "song_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "songTitle",
+            "graphql_non_null": 0
+        },
+        {
+            "key": "field_66264a4162778",
+            "label": "Length",
+            "name": "length",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "length",
+            "graphql_non_null": 0
+        },
+        {
+            "key": "field_66264a5c62779",
+            "label": "Lyrics",
+            "name": "lyrics",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": "",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "lyrics",
+            "graphql_non_null": 0
+        },
+        {
+            "key": "field_66264a8d6277a",
+            "label": "Genre",
+            "name": "genre",
+            "aria-label": "",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "post_tag",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "id",
+            "field_type": "checkbox",
+            "bidirectional": 0,
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "genre",
+            "multiple": 0,
+            "allow_null": 0,
+            "bidirectional_target": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "song"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "show_in_graphql": 1,
+    "graphql_field_name": "songFields",
+    "map_graphql_types_from_location_rules": 0,
+    "graphql_types": "",
+    "modified": 1713893487
+}

@@ -42,6 +42,18 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Unnecessary for the repository
+conf/
+app/sql/
+app/public/*
+!app/public/wp-content/
+app/public/wp-content/plugins/index.php
+app/public/wp-content/themes/*
+!app/public/wp-content/themes/wptheme/
+app/public/wp-content/upgrade/
+app/public/wp-content/uploads/
+app/public/wp-content/index.php
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
